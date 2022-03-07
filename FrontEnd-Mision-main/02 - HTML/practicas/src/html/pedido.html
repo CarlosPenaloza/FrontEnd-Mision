@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelerìa</title>
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+
+  <body>
+
+    <header class="encabezado">
+      <nav class="menu">
+        <ul class="lista">
+          <li class="opcion"><a href="../index.html" class="opcion-enlace">
+            Inicio
+          </a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <h1>Pedido</h1>
+
+      <fieldset>
+
+        <form action="">
+          <section class="datosPersonales">
+            <label for="nombre">Nombre(s):</label>
+            <input type="text" name="nombre" id="">
+            <label for="apellidoPaterno">Apellido Paterno:</label>
+            <input type="text" name="apellidoPaterno" id="">
+            <label for="apellidoMaterno">Apellido Materno:</label>
+            <input type="text" name="apellidoMaterno" id="">
+            <label for="numeroTelefono">Numero Telefono:</label>
+            <input type="tel" name="numeroTelefono" id="">
+            <label for="correoElectronico">Correo Electronico:</label>
+            <input type="email" name="correoElectronico" id="">
+          </section>
+  
+  
+          <section class="direccion">
+            <label for="Calle">Calle:</label>
+            <input type="text" name="Calle" id="">
+            <label for="numeroExterior">Numero Exterior:</label>
+            <input type="number" name="Numero Exterior" id="">
+            <label for="numeroInterior">Numero Interior:</label>
+            <input type="number" name="Numero Interior" id="">
+            <label for="codigoPostal">Codigo Postal:</label>
+            <input type="number" name="Codigo Postal" id="">
+          </section class="direccion">
+
+          <section class="pasteles">
+
+            <div class="pasteles-sabor">
+              <label for="saborPasteles">Sabor de pastel:</label>
+              <input type="checkbox" name="saborPasteles" value="chocolate">Chocolate <span>(50 pesos)</span>
+              <input type="checkbox" name="saborPasteles" value="vainilla">Vainilla <span>(40 pesos)</span>
+              <input type="checkbox" name="saborPasteles" value="cafe">Cafe <span>(60 pesos)</span>
+              <input type="checkbox" name="saborPasteles" value="fresa">Fresa <span>(30 pesos)</span>
+            </div>
+
+            <div class="pasteles-relleno">
+              <label for="decoracionPasteles">Decoracion de pastel:</label>
+              <input type="checkbox" name="decoracionPasteles" value="fondand"> Fondand <span>(40 pesos)</span>
+              <input type="checkbox" name="decoracionPasteles" value="cremaBatida">Crema Batida <span>(20 pesos)</span>
+              <input type="checkbox" name="decoracionPasteles" value="Chocolate">Chocolate <span>(10 pesos)</span>
+            </div>
+
+          </section>
+  
+        </form>
+
+        <input type="button" value="Solicitar Pedido">
+
+      </fieldset>
+
+    </main>
+
+    <footer class="piePagina">
+      <h1>Contacto</h1>
+      <p>Direccion</p>
+      <p>Telefono</p>
+      <p>Horarios de Atencion</p>
+    </footer>
+
+    <script src="index.js"></script>
+    
+  </body>
+
+</html>
