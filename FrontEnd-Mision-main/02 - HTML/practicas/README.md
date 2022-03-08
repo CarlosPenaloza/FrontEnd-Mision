@@ -20,7 +20,7 @@ Descripción:<br>
 - La página debe tener información de la pastelería que es Dirección, Teléfono y horarios de atención.
 
 ## Prácticas a Realizar
-**Tienen hasta el 4 de Marzo**
+**Tienen hasta el 6 de Marzo**
 
 Prácticas:
 - Crear marca de la pastelería como un logo y los mensajes que daremos desde la marca.
