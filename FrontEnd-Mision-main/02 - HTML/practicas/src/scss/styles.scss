@@ -1,19 +1,19 @@
 html{
-    background-color: aliceblue;
-    color: black;
-    height: 100%
-  };
+  background-color: aliceblue;
+  color: black;
+  height: 100%
+};
   
-  .encabezado{
-    background-color: black;
-    margin: 0;
-  }
+.encabezado{
+  background-color: black;
+  margin: 0;
+}
   
-  .lista{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: gray;
-    list-style: none;
-    color: aliceblue;
-  };
+.lista{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: gray;
+  list-style: none;
+  color: aliceblue;
+};

@@ -4,11 +4,7 @@ const { loader } = require("mini-css-extract-plugin");
 
 module.exports = {
     entry: {
-        js: "./src/index.js",
-        /*
-        react: "./src/index_react.js",
-        ts: "./src/index_ts.js",
-        */
+        index: "./src/index.js"
     },
     output: {
         filename: "[name].[chunkhash].js"
@@ -77,7 +73,7 @@ module.exports = {
         new HtmlWebpack({
             template: "./src/index.html",
             filename: "./index.html",
-            chunks: ["js"],
+            chunks: ["index"],
             hash: true,
         }),
         new HtmlWebpack({
