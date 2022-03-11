@@ -1,0 +1,38 @@
+.horario-vacuna{
+  .contenedor-izq-der{
+    display: flex;
+    flex-direction: row;
+
+    .horario-vacuna_lado{
+      width: 50%
+    };
+  };
+
+  .horario-vacuna_horario{
+    display: flex;
+    flex-direction: column;
+    ul{
+      display: flex;
+      flex-direction: row;
+      li{
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+      };
+    };
+  };
+
+  .horario-vacuna_empresas{
+    ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    };
+  };
+
+  .horario-vacuna_horario-menu{
+    display: flex;
+    flex-direction: row;
+  }
+
+}

@@ -1,0 +1,19 @@
+.encabezado-body{
+  margin: 2rem 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .menu{
+    width: 50%;
+    .menu-barra{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+      li{
+        align-self: center;
+        text-align: center;
+      }
+    }
+  }
+}
