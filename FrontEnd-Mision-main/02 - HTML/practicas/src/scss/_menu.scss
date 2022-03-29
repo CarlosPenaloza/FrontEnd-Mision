@@ -1,0 +1,21 @@
+.menu {
+  background-color: gray;
+  padding: 10px;
+  margin: 0;
+}
+.lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.opcion {
+  list-style: none;
+  width: 100px;
+  background-color: $colorPrimario;
+  border-radius: 5px;
+  text-align: center;
+}
+.opcion-enlace {
+  text-decoration: none;
+  color: $colorSecundario;
+}

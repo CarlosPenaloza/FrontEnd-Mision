@@ -1,126 +1,127 @@
 <!DOCTYPE html>
 <html lang="es">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedido</title>
-    <meta name="description" content="Realiza un nuevo pedido" />
-    <!-- <link rel="icon" href="assets/img/favicon.png"> -->
-    <!-- <link rel="appel-touch-icon" href="assets/img/favicon.png"> -->
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedido</title>
+  <meta name="description" content="Realiza un nuevo pedido" />
+  <!-- <link rel="icon" href="assets/img/favicon.png"> -->
+  <!-- <link rel="appel-touch-icon" href="assets/img/favicon.png"> -->
+</head>
 
-  <body>
+<body>
 
-    <header class="encabezado">
-      <h1>Padrino's Cakes'n Bread</h1>
-    </header>
+  <header class="encabezado">
+    <h1>Padrino's Cakes'n Bread</h1>
+  </header>
 
-    <nav class="menu">
-      <ul class="lista">
-        <li class="opcion"><a href="../index.html" class="opcion-enlace">
+  <nav class="menu">
+    <ul class="lista">
+      <li class="opcion"><a href="../index.html" class="opcion-enlace">
           Inicio
         </a></li>
-      </ul>
-    </nav>
+    </ul>
+  </nav>
 
-    <main class="main">
-      <h1>Pedido</h1>
+  <main class="main">
+    <h1>Pedido</h1>
 
-      <fieldset>
+    <fieldset>
 
-        <form action="">
-          <section class="datosPersonales">
-            <h2>Datos Personales</h2>
-            <label>
-              Nombre(s): <input type="text" name="nombre" placeholder="Escribe tu nombre" required>
-            </label>
+      <form action="">
+        <section class="datosPersonales">
+          <h2>Datos Personales</h2>
+          <label>
+            Nombre(s): <input type="text" name="nombre" placeholder="Escribe tu nombre" required>
+          </label>
 
-            <label>
-              Apellido Paterno: <input type="text" name="apellidoPaterno" placeholder="Escribe tu primer apellido" required> 
-            </label>
+          <label>
+            Apellido Paterno: <input type="text" name="apellidoPaterno" placeholder="Escribe tu primer apellido"
+              required>
+          </label>
 
-            <label>
-              Apellido Materno: <input type="text" name="apellidoMaterno" placeholder="Escribe tu segundo apellido">
-            </label>
+          <label>
+            Apellido Materno: <input type="text" name="apellidoMaterno" placeholder="Escribe tu segundo apellido">
+          </label>
 
-            <label>
-              Telefono: <input type="tel" name="numeroTelefono" size="10">
-            </label>
+          <label>
+            Telefono: <input type="tel" name="numeroTelefono" size="10">
+          </label>
 
-            <label>
-              Correo Electronico: <input type="email" name="correoElectronico" placeholder="abc123@email.com" required>
-            </label>
-          </section>
+          <label>
+            Correo Electronico: <input type="email" name="correoElectronico" placeholder="abc123@email.com" required>
+          </label>
+        </section>
 
-          <hr>  
-  
-          <section class="direccion">
-            <h2>Direccion</h2>
-            <label>
-              Calle: <input type="text" name="Calle" required>
-            </label>
+        <hr>
 
-            <label>
-              Numero Exterior: <input type="number" name="Numero Exterior" required size="5">
-            </label>
+        <section class="direccion">
+          <h2>Direccion</h2>
+          <label>
+            Calle: <input type="text" name="Calle" required>
+          </label>
 
-            <label>
-              Numero Interior: <input type="number" name="Numero Interior" size="5">
-            </label>
+          <label>
+            Numero Exterior: <input type="number" name="Numero Exterior" required size="5">
+          </label>
 
-            <label>
-              Codigo Postal: <input type="number" name="Codigo Postal" required size="5">
-            </label>
+          <label>
+            Numero Interior: <input type="number" name="Numero Interior" size="5">
+          </label>
 
-            <h3>Entre las calles</h3>
-            <label>
-              Entre calle: <input type="text" name="entreCalle1" required>
-            </label>
+          <label>
+            Codigo Postal: <input type="number" name="Codigo Postal" required size="5">
+          </label>
 
-            <label>
-              Y calle: <input type="text" name="entreCalle2" required>
-            </label>
-          </section class="direccion">
+          <h3>Entre las calles</h3>
+          <label>
+            Entre calle: <input type="text" name="entreCalle1" required>
+          </label>
 
-          <hr>
+          <label>
+            Y calle: <input type="text" name="entreCalle2" required>
+          </label>
+        </section class="direccion">
 
-          <section class="pasteles">
-            <h2>Pedido</h2>
-            <label class="pasteles-sabor">
-              Sabor de pastel:
-              <input type="checkbox" name="saborPasteles" value="chocolate">Chocolate <span>(50 pesos)</span>
-              <input type="checkbox" name="saborPasteles" value="vainilla">Vainilla <span>(40 pesos)</span>
-              <input type="checkbox" name="saborPasteles" value="cafe">Cafe <span>(60 pesos)</span>
-              <input type="checkbox" name="saborPasteles" value="fresa">Fresa <span>(30 pesos)</span>
-            </label>
+        <hr>
 
-            <br>
+        <section class="pasteles">
+          <h2>Pedido</h2>
+          <label class="pasteles-sabor">
+            Sabor de pastel:
+            <input type="checkbox" name="saborPasteles" value="chocolate">Chocolate <span>(50 pesos)</span>
+            <input type="checkbox" name="saborPasteles" value="vainilla">Vainilla <span>(40 pesos)</span>
+            <input type="checkbox" name="saborPasteles" value="cafe">Cafe <span>(60 pesos)</span>
+            <input type="checkbox" name="saborPasteles" value="fresa">Fresa <span>(30 pesos)</span>
+          </label>
 
-            <label class="pasteles-relleno">
-              Decoracion de pastel:
-              <input type="checkbox" name="decoracionPasteles" value="fondand"> Fondand <span>(40 pesos)</span>
-              <input type="checkbox" name="decoracionPasteles" value="cremaBatida">Crema Batida <span>(20 pesos)</span>
-              <input type="checkbox" name="decoracionPasteles" value="Chocolate">Chocolate <span>(10 pesos)</span>
-            </label>
-          </section>
-  
-          <input type="submit" value="Solicitar Pedido">
-        </form>
-      </fieldset>
+          <br>
 
-    </main>
+          <label class="pasteles-relleno">
+            Decoracion de pastel:
+            <input type="checkbox" name="decoracionPasteles" value="fondand"> Fondand <span>(40 pesos)</span>
+            <input type="checkbox" name="decoracionPasteles" value="cremaBatida">Crema Batida <span>(20 pesos)</span>
+            <input type="checkbox" name="decoracionPasteles" value="Chocolate">Chocolate <span>(10 pesos)</span>
+          </label>
+        </section>
 
-    <footer class="piePagina">
-      <address class="informacionEmpresa">
-        <h2>Contacto</h2>
-        <p>Direccion</p>
-        <p>Telefono</p>
-        <p>Horarios de Atencion</p>
-      </address>
-    </footer>
-    
-  </body>
+        <input type="submit" value="Solicitar Pedido">
+      </form>
+    </fieldset>
+
+  </main>
+
+  <footer class="piePagina">
+    <address class="informacionEmpresa">
+      <h2>Contacto</h2>
+      <p>Direccion</p>
+      <p>Telefono</p>
+      <p>Horarios de Atencion</p>
+    </address>
+  </footer>
+
+</body>
 
 </html>

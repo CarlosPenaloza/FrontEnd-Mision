@@ -1,19 +1,6 @@
-html{
-  background-color: aliceblue;
-  color: black;
-  height: 100%
-};
-  
-.encabezado{
-  background-color: bisque;
-  margin: 0;
-}
-  
-.lista{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  background-color: gray;
-  list-style: none;
-  color: aliceblue;
-};
+@import './general';
+@import './variables';
+@import './menu';
+@import './encabezado';
+@import './body';
+@import './normalize';
