@@ -1,0 +1,23 @@
+.vacuna-preparacion {
+  display: flex;
+  flex-direction: row;
+}
+
+.vacuna-preparacion-seccion {
+  width: 50%;
+}
+
+.vacuna-preparacion-seccion-articulos {
+  display: flex;
+  flex-direction: column;
+}
+
+.vacuna-preparacion-seccion-articulos-articulo {
+  display: flex;
+  flex-direction: column;
+}
+
+.vacuna-preparacion-seccion-articulos-articulo_encabezado {
+  display: flex;
+  flex-direction: row;
+}

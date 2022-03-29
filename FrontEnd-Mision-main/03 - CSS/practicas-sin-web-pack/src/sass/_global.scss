@@ -1,0 +1,21 @@
+// box sizing
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.btn-primario {
+  list-style: none;
+}

@@ -1,0 +1,34 @@
+.horario-vacuna-secciones {
+  display: flex;
+  flex-direction: row;
+}
+
+.horario-vacuna-seccion {
+  width: 50%;
+}
+
+.horario-vacuna-fecha {
+  display: flex;
+  flex-direction: column;
+}
+
+.horario-vacuna-fecha_informacion {
+  display: flex;
+  flex-direction: row;
+  li {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.horario-vacuna_empresas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.horario-vacuna_horario-menu {
+  display: flex;
+  flex-direction: row;
+}

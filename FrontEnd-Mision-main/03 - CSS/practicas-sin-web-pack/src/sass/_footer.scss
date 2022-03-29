@@ -1,0 +1,32 @@
+.final-pagina {
+  display: flex;
+  flex-direction: column;
+}
+
+.final-pagina-pie-seccion {
+  display: flex;
+  flex-direction: row;
+  h3 {
+    width: 50%;
+  }
+}
+
+.final-pagina-seccion {
+  display: flex;
+  flex-direction: row;
+}
+
+.final-pagina-seccion-seccion {
+  width: 50%;
+}
+
+.final-pagina-seccion-enlaces {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.final-pagina-pie {
+  display: flex;
+  flex-direction: row;
+}

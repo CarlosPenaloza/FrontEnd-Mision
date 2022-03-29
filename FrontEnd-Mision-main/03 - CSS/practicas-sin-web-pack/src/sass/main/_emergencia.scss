@@ -1,0 +1,30 @@
+.vacuna-emergencia {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.vacuna-emergencia-seccion {
+  width: 50%;
+}
+
+.vacuna-emergencia-seccion-contactos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.vacuna-emergencia-seccion-contactos-contacto {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.vacuna-emergencia-seccion-contactos-contacto_encabezado {
+  display: flex;
+  flex-direction: row;
+}
+
+.vacuna-emergencia-seccion-contactos-contacto_informacion {
+  display: flex;
+  flex-direction: column;
+}

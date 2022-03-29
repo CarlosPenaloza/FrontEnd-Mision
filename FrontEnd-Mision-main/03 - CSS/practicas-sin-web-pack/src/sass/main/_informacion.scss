@@ -1,0 +1,13 @@
+.vacuna-informacion {
+  display: flex;
+  flex-direction: column;
+}
+.vacuna-informacion-articulos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.vacuna-informacion-articulo {
+  display: flex;
+  flex-direction: column;
+}
